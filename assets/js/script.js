@@ -64,7 +64,7 @@ const questionPart = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-button");
 
-/*skapa variabler questionIndex and score*/
+/*create variables questionIndex and score*/
 let questionIndex = 0;
 let score = 0;
 
