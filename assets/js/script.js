@@ -1,12 +1,12 @@
-/*create a constant "questions" to add our questions and the options for the answers.*/ 
+/*create a constant "questions" to add our questions and the options for the answers.*/
 const questions = [
     {
         question: "question-1",
         answers: [
-            { text: "answer1", correct: false },
-            { text: "answer2", correct: true },
             { text: "answer3", correct: false },
-            { text: "answer4", correct: false },
+            { text: "answer3", correct: true },
+            { text: "answer3", correct: false },
+            { text: "answer3", correct: false },
         ],
 
     },
@@ -59,7 +59,7 @@ const questions = [
     }
 ];
 
-/*add variables for id "question" "answer-buttons" "next-button"*/ 
+/*add variables for id "question" "answer-buttons" "next-button"*/
 const questionPart = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-button");
@@ -76,12 +76,29 @@ function startQuiz() {
 }
 
 function showQuestion() {
+    nextButton.style.display = "none";
     let currentQuestion = questions[questionIndex];
     let questionNumber = questionIndex + 1;
-    questionPart.innerHTML = questionNumber + ". " + currentQuestion.question
+    questionPart.innerHTML = questionNumber + ". " + currentQuestion.question;
     //Your answers
-    currentQuestion.answers.forEach((answer, index, array) => { 
+    currentQuestion.answers.forEach((answer, index, array) => {
         const btn = answerButtons.children[index];
         btn.innerHTML = answer.text;
-    })
+        if(answer.correct){
+            btn.dataset.cor = answer.correct;
+        }
+        btn.addEventListener("click", selectAnswer);
+    });
 }
+
+function selectAnswer(e) {
+    const selectedButton = e.target;
+    const rightAnswer = selectedButton.dataset.cor === "true";
+    if (rightAnswer) {
+        selectedButton.classList.add("correct");
+    } else {
+        selectedButton.classList.add("incorrect");
+    }
+}
+
+startQuiz();
