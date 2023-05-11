@@ -31,3 +31,36 @@ body {
     border-bottom: 1px solid black;
     padding-bottom: 35px;
 }
+
+/* style quiz and it's heading*/
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: blue;
+    font-weight: 600;
+}
+
+/*style the buttons and make it hover*/
+.button {
+    background: white;
+    color: black;
+    font-family: Lato;
+    font-weight: 600;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
