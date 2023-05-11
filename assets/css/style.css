@@ -64,3 +64,17 @@ body {
     color: white;
 }
 
+/*style next-button*/
+#next-button {
+    background: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px auto 0;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    display: block;
+}
