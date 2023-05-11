@@ -58,3 +58,13 @@ const questions = [
         ]
     }
 ];
+
+/*add variables for id "question" "answer-buttons" "next-button"*/ 
+const questionPart = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-button");
+
+/*skapa variabler questionIndex and score*/
+let questionIndex = 0;
+let score = 0;
+
