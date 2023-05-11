@@ -68,3 +68,20 @@ const nextButton = document.getElementById("next-button");
 let questionIndex = 0;
 let score = 0;
 
+function startQuiz() {
+    questionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
+
+function showQuestion() {
+    let currentQuestion = questions[questionIndex];
+    let questionNumber = questionIndex + 1;
+    questionPart.innerHTML = questionNumber + ". " + currentQuestion.question
+    //Your answers
+    currentQuestion.answers.forEach((answer, index, array) => { 
+        const btn = answerButtons.children[index];
+        btn.innerHTML = answer.text;
+    })
+}
