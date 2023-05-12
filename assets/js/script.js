@@ -60,6 +60,7 @@ const questions = [
 ];
 
 /*add variables for id "question" "answer-buttons" "next-button"*/
+/*jshint esversion: 6 */
 const questionPart = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-button");
