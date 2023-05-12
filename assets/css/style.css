@@ -76,7 +76,7 @@ body {
     text-align: center;
     width: 100px;
     border-radius: 10px;
-    display: block;
+    display: none;
 }
 
 .correct {

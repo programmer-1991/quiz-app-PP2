@@ -50,10 +50,10 @@ const questions = [
         question: "question-5",
         answers: [
 
-            { text: "answer8", correct: true },
-            { text: "answer8", correct: true },
-            { text: "answer8", correct: true },
-            { text: "answer8", correct: true },
+            { text: "answer8", correct: false},
+            { text: "answer8", correct: false},
+            { text: "answer8", correct: false},
+            { text: "answer8", correct: true},
 
         ]
     }
@@ -76,17 +76,17 @@ function startQuiz() {
 }
 
 function showQuestion() {
-    nextButton.style.display = "none";
     let currentQuestion = questions[questionIndex];
     let questionNumber = questionIndex + 1;
+    answerButtons.style.display = "block";
     questionPart.innerHTML = questionNumber + ". " + currentQuestion.question;
     //Your answers
-    currentQuestion.answers.forEach((answer, index, array) => {
+    currentQuestion.answers.forEach((answer, index) => {
         const btn = answerButtons.children[index];
         btn.innerHTML = answer.text;
-        if (answer.correct) {
-            btn.dataset.correct = answer.correct;
-        }
+        btn.dataset.correct = answer.correct;
+        btn.classList.remove("correct", "incorrect");
+        btn.disabled = false;
         btn.addEventListener("click", selectAnswer);
     });
 }
@@ -96,6 +96,7 @@ function selectAnswer(e) {
     const rightAnswer = selectedButton.dataset.correct === "true";
     if (rightAnswer) {
         selectedButton.classList.add("correct");
+        score++;
     } else {
         selectedButton.classList.add("incorrect");
     }
@@ -108,5 +109,29 @@ function selectAnswer(e) {
     });
     nextButton.style.display = "block";
 }
+
+function showScore() {
+    questionPart.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    answerButtons.style.display = "none";
+    nextButton.innerHTML = "Play Again";
+    //nextButton.style.display = "block";
+}
+
+function handleNextButton() {
+    questionIndex++;
+    if (questionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
+nextButton.addEventListener("click", () => {
+    if (questionIndex < questions.length) {
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+});
 
 startQuiz();
