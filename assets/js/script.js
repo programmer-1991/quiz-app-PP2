@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*create a constant "questions" to add our questions and the options for the answers.*/
 const questions = [
     {
@@ -60,7 +61,6 @@ const questions = [
 ];
 
 /*add variables for id "question" "answer-buttons" "next-button"*/
-/*jshint esversion: 6 */
 const questionPart = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-button");
@@ -69,6 +69,7 @@ const nextButton = document.getElementById("next-button");
 let questionIndex = 0;
 let score = 0;
 
+//startQuiz function
 function startQuiz() {
     questionIndex = 0;
     score = 0;
@@ -76,25 +77,30 @@ function startQuiz() {
     showQuestion();
 }
 
+//showQuestion function
 function showQuestion() {
+    //Show your question
     let currentQuestion = questions[questionIndex];
     let questionNumber = questionIndex + 1;
     answerButtons.style.display = "block";
     questionPart.innerHTML = questionNumber + ". " + currentQuestion.question;
-    //Your answers
+    //Show your answers
     currentQuestion.answers.forEach((answer, index) => {
         const btn = answerButtons.children[index];
         btn.innerHTML = answer.text;
         btn.dataset.correct = answer.correct;
         btn.classList.remove("correct", "incorrect");
         btn.disabled = false;
+        //The user chooses an answer
         btn.addEventListener("click", selectAnswer);
     });
 }
 
-function selectAnswer(e) {
-    const selectedButton = e.target;
+//selectAnswer function
+function selectAnswer(a) {
+    const selectedButton = a.target;
     const rightAnswer = selectedButton.dataset.correct === "true";
+    //we check if the answer is right
     if (rightAnswer) {
         selectedButton.classList.add("correct");
         score++;
@@ -102,6 +108,8 @@ function selectAnswer(e) {
         selectedButton.classList.add("incorrect");
     }
 
+    //The computer finds the right answer and 
+    //disables the answer buttons
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
@@ -111,14 +119,15 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+//showScore function
 function showScore() {
     questionPart.innerHTML = `You scored ${score} out of ${questions.length}!`;
     answerButtons.style.display = "none";
     nextButton.innerHTML = "Play Again";
-    //nextButton.style.display = "block";
 }
 
-function handleNextButton() {
+//When we click on the next button
+function againNextButton() {
     questionIndex++;
     if (questionIndex < questions.length) {
         showQuestion();
@@ -127,9 +136,13 @@ function handleNextButton() {
     }
 }
 
+//Here starts the program
+
+//When the user clicks the next button we check
+//if there are questions left
 nextButton.addEventListener("click", () => {
     if (questionIndex < questions.length) {
-        handleNextButton();
+        againNextButton();
     } else {
         startQuiz();
     }

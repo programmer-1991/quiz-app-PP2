@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Raleway, sans-serif;
+    font-family: Lato, sans-serif;
     box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@ body {
 .game {
     background: white;
     width: 80%;
-    max-width: 500px;
+    max-width: 650px;
     margin: 80px auto 0;
     border-radius: 15px;
     padding: 40px;
@@ -26,21 +26,21 @@ body {
 
 .game h1 {
     font-size: 25px;
-    color: #001e4d;
+    color: black;
     font-weight: 500;
     border-bottom: 1px solid black;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
 }
 
 /* style quiz and it's heading*/
-.quiz {
-    padding: 20px 0;
+.game {
+    padding: 20px;
 }
 
-.quiz h2 {
+.game h2 {
     margin-bottom: 10px;
-    font-size: 25px;
-    color: blue;
+    font-size: 15px;
+    color: black;
     font-weight: 600;
 }
 
@@ -49,13 +49,13 @@ body {
     background: white;
     color: black;
     font-family: Lato;
-    font-weight: 600;
+    font-weight: 700;
     border: 1px solid black;
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 5px 0;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -76,7 +76,7 @@ body {
     text-align: center;
     width: 100px;
     border-radius: 10px;
-    display: none;
+    display: block;
 }
 
 .correct {
