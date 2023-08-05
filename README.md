@@ -17,20 +17,11 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons.
-
-![Game]()
-
-- __The Question section__
-
-  - The question section is where the user will be able to see the question to answer as part of the game. The user will be able to answer the questions and choose bettween four alternatives.
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly.
-
-![Question]()
-
-- __The Score Area__
-
+  - This section will allow the user to play the quiz game. The user will be able to see a question with four answer alternatives.
+  - This section has a question part and that is where the user will be able to see the questions to answer as part of the game.
+  - Options section will allow the user to answer the questions and choose bettween four options eachtime. These options are interactive buttons that the user can click to make their choice.  
+  - The user will be able to submit their answer and if the button clicked turns green then that makes it known to the user that they answered correctly. Otherwise the button will turn red to make it clear to the user that the answer chosen is wrong and the right answer will be highlighted with green.
+  - After answering the question the user can click the Next button to view the next question.
   - This section will allow the user to see exactly how many correct answers they have provided.
 
 ![score]()
