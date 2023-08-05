@@ -8,11 +8,12 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 ### Existing Features
 
-- __The Quiz Game Heading__
+- __The Header__
+  
+  - Featured at the top of the page, the header shows the game name: Quiz To Learn and it is easy to see for the user.
+  - This header clearly tells the user what game they are playing.
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
-
-![Logo](media/love_maths_logo.png)
+![Logo](assets/images/)
 
 - __The Game Area__
 
