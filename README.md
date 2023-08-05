@@ -1,6 +1,6 @@
-# Quiz Game
+# Quiz To Learn
 
-Quiz game is a website that aims to show how pure JavaScript works in a real-world setting. The site will be aimed at folks who enjoy playing quiz games as well as implementing more sophisticated JavaScript principles. Quiz Game is a fully responsive JavaScript game that allows players to simultaneously learn, seek information, and have fun.
+Quiz-to-learn is a website that aims to show how pure JavaScript works in a real-world setting and creates an effective way to promote learning and educational content. The site targets people with different age groups who enjoy playing quiz games and eager to enhance their knowledge and retain information better. Quiz-to-learn offers to users a fun and effective way to learn, challenge themselves, and engage with others, making it a valuable tool for education, entertainment, and personal development.
 
 ![Responsice Mockup]()
 
