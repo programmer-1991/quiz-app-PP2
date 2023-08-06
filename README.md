@@ -32,7 +32,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Additional Features to Implement
 
-- Another feature idea
+- add game rules.
+- add a timer for questions.
+- add 404.html file.
+- add mediaquery to make it more responsive to mobile devices.
+- add more questions with different categories or make them random.
 
 ## Testing
 
@@ -43,6 +47,7 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 ### Validator Testing
 
@@ -61,6 +66,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+- next button is clickable without choosing an answer.
 
 ## Deployment
 
