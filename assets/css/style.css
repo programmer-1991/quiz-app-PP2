@@ -15,7 +15,7 @@ body {
 }
 
 /* style game and it's heading*/
-.game {
+#game {
     background: white;
     width: 80%;
     max-width: 650px;
@@ -24,7 +24,7 @@ body {
     padding: 40px;
 }
 
-.game h1 {
+#game h1 {
     font-size: 25px;
     color: black;
     font-weight: 500;
@@ -33,11 +33,11 @@ body {
 }
 
 /* style quiz and it's heading*/
-.game {
+#game {
     padding: 20px;
 }
 
-.game h2 {
+#game h2 {
     margin-bottom: 10px;
     font-size: 15px;
     color: black;
