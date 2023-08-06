@@ -64,11 +64,11 @@ body {
     display: block;
 }
 
-.button:hover {
+/*hover effect when buttons are enabled*/
+.button:enabled:hover {
     background: black;
     color: white;
 }
-
 /*style next-button*/
 #next-button {
     background: blue;
@@ -81,7 +81,8 @@ body {
     text-align: center;
     width: 100px;
     border-radius: 10px;
-    display: block;
+    /*display: block;*/
+
 }
 
 .correct {

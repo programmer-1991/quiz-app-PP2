@@ -82,7 +82,8 @@ function showQuestion() {
     //Show your question
     let currentQuestion = questions[questionIndex];
     let questionNumber = questionIndex + 1;
-    answerButtons.style.display = "block";
+    answerButtons.hidden = false;
+    nextButton.hidden = true;
     questionPart.innerHTML = questionNumber + ". " + currentQuestion.question;
     //Show your answers
     currentQuestion.answers.forEach((answer, index) => {
@@ -116,13 +117,13 @@ function selectAnswer(a) {
         }
         button.disabled = "true";
     });
-    nextButton.style.display = "block";
+    nextButton.hidden = false;
 }
 
 //showScore function
 function showScore() {
     questionPart.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    answerButtons.style.display = "none";
+    answerButtons.hidden = true;
     nextButton.innerHTML = "Play Again";
 }
 
@@ -137,7 +138,6 @@ function againNextButton() {
 }
 
 //Here starts the program
-
 //When the user clicks the next button we check
 //if there are questions left
 nextButton.addEventListener("click", () => {
