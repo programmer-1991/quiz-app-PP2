@@ -39,10 +39,10 @@ const questions = [
       question: "Which language has the more native speakers?",
         answers: [
 
-            { text: "Spanish", correct: true },
+            { text: "Spanish", correct: false },
             { text: "English", correct: false },
-            { text: "Chineese", correct: false },
-            { text: "Frensh", correct: false },
+            { text: "Mandarin", correct: true },
+            { text: "French", correct: false },
 
         ]
     },
