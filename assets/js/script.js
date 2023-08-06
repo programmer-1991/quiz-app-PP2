@@ -36,7 +36,7 @@ const questions = [
     },
 
     {
-      question: "Which language has the more native speakers: English or Spanish?",
+      question: "Which language has the more native speakers?",
         answers: [
 
             { text: "Spanish", correct: true },
