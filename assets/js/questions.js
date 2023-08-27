@@ -56,5 +56,27 @@ const questions = [
             { text: "Finland", correct: true },
 
         ]
-    }
-];
+    },
+
+    {
+        question: "question 6 ",
+        answers: [
+            { text: "1111", correct: false },
+            { text: "2222", correct: true },
+            { text: "3333", correct: false },
+            { text: "4444", correct: false },
+        ],
+
+    },
+
+    {
+        question: "question 7 ",
+        answers: [
+            { text: "1111jh", correct: false },
+            { text: "22ugui22", correct: true },
+            { text: "33hjb33", correct: false },
+            { text: "44kjbjk44", correct: false },
+        ],
+
+    },
+]
