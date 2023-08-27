@@ -19,12 +19,51 @@ function getRandomInt(max) {
 
 //startQuiz function
 function startQuiz() {
-    currentQuestions = questions.slice();
-    questionIndex = 0;
-    questionNumber = 1;
+    questionIndex = -1;
+    quizIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
-    showQuestion();
+    quizGame = [];
+    let currentQuestions = questions.slice();
+
+    for (i = 0; i < 5; i++) {
+        quizIndex = getRandomInt(currentQuestions.length);
+        quizQuestion = currentQuestions[quizIndex];
+        currentQuestions.splice(quizIndex, 1);
+        quizGame.push(quizQuestion);
+    }
+    score = 0;
+    showRules();
+    gameArea.hidden = false;//så att den inte glitchar vid uppdateringen
+}
+
+//ShowRules function to show rules to the user
+function showRules() {
+    gameArea.classList.add("rulesStyle");
+    rules = {
+        question: "Rules",
+        answers: [{
+            text: "1- You have to choose an option to move on to the next question."
+        },
+        {
+            text: "2- When you choose an answer you can not regret it."
+        },
+        {
+            text: "3- You have to get at least 3 of 5 right answers to pass the game."
+        },
+        {
+            text: "4- You can play again and get different questions."
+        },
+        ]
+    };
+    questionPart.innerHTML = rules.question;
+    rules.answers.forEach((answer, index) => {
+        const btn = answerButtons.children[index];
+        btn.classList.remove("correct", "incorrect");
+        btn.innerHTML = answer.text;
+        btn.disabled = true;
+    });
+    answerButtons.hidden = false;
+    nextButton.innerHTML = "Play";
 }
 
 //showQuestion function
