@@ -11,7 +11,7 @@ const gameArea = document.getElementById("game");
 let questionIndex;
 let quizIndex;
 let score;
-let quizGame=[];
+let quizGame = [];
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
@@ -69,11 +69,11 @@ function showRules() {
 //showQuestion function
 function showQuestion() {
     //Show your question
-    questionIndex = getRandomInt(currentQuestions.length);
-    let currentQuestion = currentQuestions[questionIndex];
+    let currentQuestion = quizGame[questionIndex];
+    gameArea.classList.remove("rulesStyle");
     answerButtons.hidden = false;
-    nextButton.hidden = true;
-    questionPart.innerHTML = questionNumber++ + ". " + currentQuestion.question;
+    nextButton.style.visibility = 'hidden';
+    questionPart.innerHTML = questionIndex + 1 + ". " + currentQuestion.question;
 
     //Show your answers
     currentQuestion.answers.forEach((answer, index) => {
