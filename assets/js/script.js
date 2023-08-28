@@ -33,7 +33,7 @@ function startQuiz() {
     }
     score = 0;
     showRules();
-    gameArea.hidden = false;//så att den inte glitchar vid uppdateringen
+    gameArea.hidden = false;
 }
 
 //ShowRules function to show rules to the user
@@ -107,7 +107,7 @@ function selectAnswer(a) {
         }
         button.disabled = "true";
     });
-    nextButton.hidden = false;
+    nextButton.style.visibility = 'visible';
 }
 
 //showScore function
@@ -119,8 +119,7 @@ function showScore() {
 
 //When we click on the next button
 function againNextButton() {
-    currentQuestions.splice(questionIndex, 1);
-    if (currentQuestions.length) {
+    if (++questionIndex < quizGame.length) {
         showQuestion();
     } else {
         showScore();
@@ -131,7 +130,7 @@ function againNextButton() {
 //When the user clicks the next button we check
 //if there are questions left
 nextButton.addEventListener("click", () => {
-    if (currentQuestions.length > 0) {
+    if (questionIndex < quizGame.length) {
         againNextButton();
     } else {
         startQuiz();
