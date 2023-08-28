@@ -1,17 +1,6 @@
 /*create a constant "questions" to add our questions and the options for the answers.*/
 const questions = [
     {
-        question: "How many minutes are in a full week? ",
-        answers: [
-            { text: "7500", correct: false },
-            { text: "10080", correct: true },
-            { text: "11000", correct: false },
-            { text: "9800", correct: false },
-        ],
-
-    },
-
-    {
         question: "What city is known as The Eternal City? ",
         answers: [
 
@@ -59,24 +48,36 @@ const questions = [
     },
 
     {
-        question: "question 6 ",
+        question: "How many minutes are in a full week? ",
         answers: [
-            { text: "1111", correct: false },
-            { text: "2222", correct: true },
-            { text: "3333", correct: false },
-            { text: "4444", correct: false },
+            { text: "7500", correct: false },
+            { text: "10080", correct: true },
+            { text: "11000", correct: false },
+            { text: "9800", correct: false },
         ],
 
     },
 
     {
-        question: "question 7 ",
+        question: "How many hearts does an octopus have?",
         answers: [
-            { text: "1111jh", correct: false },
-            { text: "22ugui22", correct: true },
-            { text: "33hjb33", correct: false },
-            { text: "44kjbjk44", correct: false },
+            { text: "4", correct: false },
+            { text: "3", correct: true },
+            { text: "5", correct: false },
+            { text: "1", correct: false },
         ],
 
     },
+
+    {
+        question: "What planet is closest to the sun?",
+        answers: [
+            { text: "Mars", correct: false },
+            { text: "Earth", correct: false },
+            { text: "Mercury", correct: true },
+            { text: "Jupiter", correct: false },
+        ],
+
+    },
+
 ]
