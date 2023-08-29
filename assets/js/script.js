@@ -87,6 +87,13 @@ function showQuestion() {
     });
 }
 
+//showScore function
+function showScore() {
+    questionPart.innerHTML = `You scored ${score} out of 5!`;
+    answerButtons.hidden = true;
+    nextButton.innerHTML = "Play Again";
+}
+
 //selectAnswer function
 function selectAnswer(a) {
     const selectedButton = a.target;
@@ -108,13 +115,6 @@ function selectAnswer(a) {
         button.disabled = "true";
     });
     nextButton.style.visibility = 'visible';
-}
-
-//showScore function
-function showScore() {
-    questionPart.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    answerButtons.hidden = true;
-    nextButton.innerHTML = "Play Again";
 }
 
 //When we click on the next button
