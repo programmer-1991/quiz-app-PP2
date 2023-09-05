@@ -38,7 +38,7 @@ function startQuiz() {
 
 //ShowRules function to show rules to the user
 function showRules() {
-    gameArea.classList.add("rulesStyle");
+    gameArea.classList.add("rules");
     rules = {
         question: "Rules",
         answers: [{
@@ -70,7 +70,7 @@ function showRules() {
 function showQuestion() {
     //Show your question
     let currentQuestion = quizGame[questionIndex];
-    gameArea.classList.remove("rulesStyle");
+    gameArea.classList.remove("rules");
     answerButtons.hidden = false;
     nextButton.style.visibility = 'hidden';
     questionPart.innerHTML = questionIndex + 1 + ". " + currentQuestion.question;
