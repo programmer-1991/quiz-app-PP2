@@ -11,7 +11,8 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 - __The Header__
   
   - Featured at the top of the page, the header shows the game name: Quiz To Learn and it is easy to see for the user.
-  - This header clearly tells the user what game they are playing.
+  - It clearly tells the user what game they are playing.
+  - It is clickable in case the user wants to restart the game.
 
 ![Logo](assets/images/)
 
