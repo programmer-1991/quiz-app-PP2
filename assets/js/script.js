@@ -3,7 +3,7 @@
 
 /*add variables for id "question" "answer-buttons" "next-button" "game"*/
 const questionPart = document.getElementById("question");
-const answerButtons = document.getElementById("answer-buttons");
+const answerButtons = document.getElementById("answers");
 const nextButton = document.getElementById("next-button");
 const gameArea = document.getElementById("game");
 
