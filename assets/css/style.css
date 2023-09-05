@@ -34,8 +34,9 @@ a {
 /* style quiz game and its heading*/
 #game {
     background: white;
-    width: 80%;
+    width: 90%;
     max-width: 27em;
+    
     margin: 1em auto;
     border-radius: 1em;
     padding: 1em;
@@ -104,8 +105,6 @@ a {
 .rules#game button {
     border-bottom: 15px solid black;
     text-align: left;
-    /* border: none;*/
-    max-width: 80%;
     font-family: sans-serif;
 }
 
