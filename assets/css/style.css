@@ -26,6 +26,11 @@ body {
     font-family: Raleway;
 }
 
+a {
+    color: inherit;
+    font-family: inherit;
+}
+
 /* style quiz game and its heading*/
 #game {
     background: white;
