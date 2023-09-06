@@ -16,14 +16,21 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 ![Logo](assets/images/)
 
-- __The Game Area__
+- __The Rules section__
+  
+  - This will tell the user the game rules before starting the game.
 
-  - This section will allow the user to play the quiz game. The user will be able to see a question with four answer alternatives.
-  - This section has a question part and that is where the user will be able to see the questions to answer as part of the game.
-  - Options section will allow the user to answer the questions and choose bettween four options eachtime. These options are interactive buttons that the user can click to make their choice.  
-  - The user will be able to submit their answer and if the button clicked turns green then that makes it known to the user that they answered correctly. Otherwise the button will turn red to make it clear to the user that the answer chosen is wrong and the right answer will be highlighted with green.
-  - After answering the question the user can click the Next button to view the next question.
+- __The quiz section__
+
+  - This section will allow the user to play the quiz game. The user will be able to see the questions to answer as a part of the game.  
+  - The user can answer the questions by choosing an answer. The answer alternatives are interactive buttons.
+  - After choosing an answer, if the button turns green then that makes it known that the answer is correct, otherwise the button will turn red to make it clear that the answer is wrong and the right answer will be highlighted with green.
+  - After answering the question the next button will be shown and the user can click on it to view the next question.
+  
+- __The score section__ 
+ 
   - This section will allow the user to see exactly how many correct answers they have provided.
+  - The user have the opportunity to play again by clicking "Play again" button.
 
 ![score]()
 
