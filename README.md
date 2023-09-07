@@ -45,10 +45,10 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 ## Testing
 
 - I tested playing this game on different browsers: Chrome, Opera and Firefox.
-- I confirmed that the header link works.
-- I confirmed that the next button and the answer buttons work and interacts with the user the way intended.
-- I confirmed that the score results are always correct
-- I confirmed that the header, instructions, buttons and score results text are all readable and easy to understand.
+- I confirmed that the header link restarts the game.
+- I confirmed that all buttons work the way intended.
+- I confirmed that the game results are always correct.
+- I confirmed that the header, instructions, quiz and score text are all readable and easy to understand.
 - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 ![lighthouse](assets/images/lighthouse_testing.png)
