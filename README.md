@@ -34,19 +34,24 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 ![score]()
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Additional Features to Implement
-
-- add game rules.
-- add a timer for questions.
-- add 404.html file.
-- add mediaquery to make it more responsive to mobile devices.
-- add more questions with different categories or make them random.
+  - add game rules.
+  - add a timer for questions.
+  - add 404.html file.
+  - add mediaquery to make it more responsive to mobile devices.
+  - add more questions with different categories or make them random.
 
 ## Testing
+
+- I tested playing this game on different browsers: Chrome, Opera and Firefox.
+- I confirmed that the header link works.
+- I confirmed that the next button and the answer buttons work and interacts with the user the way intended.
+- I confirmed that the score results are always correct
+- I confirmed that the header, instructions, buttons and score results text are all readable and easy to understand.
+- I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+![lighthouse](assets/images/lighthouse_testing.png)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -56,6 +61,9 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+### bugs
+- dfgf
+- fgfgf
 
 ### Validator Testing
 
