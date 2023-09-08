@@ -36,11 +36,10 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 
 ### Additional Features to Implement
-  - add game rules.
-  - add a timer for questions.
-  - add 404.html file.
-  - add mediaquery to make it more responsive to mobile devices.
-  - add more questions with different categories or make them random.
+
+- add a timer for questions.
+- add more questions with different categories or make them random.
+
 
 ## Testing
 
@@ -91,12 +90,6 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 The live link can be found here - <https://programmer-1991.github.io/quiz-app-PP2/>
 
 ## Credits
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-### Content
 
 - The fonts used in the application was taken from [Google Fonts](https://fonts.google.com/).
 - The structure of my project was based on [YouTube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8).
