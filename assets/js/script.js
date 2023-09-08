@@ -114,6 +114,7 @@ function selectAnswer(a) {
         }
         button.disabled = "true";
     });
+    nextButton.innerHTML = "Next";
     nextButton.style.visibility = 'visible';
 }
 
