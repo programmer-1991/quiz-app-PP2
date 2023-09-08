@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+//jshint esversion: 6
 //import {questions} from "./js/questions"
 
 /*add variables for id "question" "answer-buttons" "next-button" "game"*/

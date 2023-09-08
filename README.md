@@ -58,8 +58,8 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 #### Solved bugs
 
-- The user could move on to the next question without choosing an answer. This was solved by making the button invisible until and unless the user makes a choice
-- The answer buttons still have hover effect even after making a choice. The solution was to activate the hover effect only when the buttons are enabled.
+- The user could move on to the next question without choosing an answer. This was solved by making the button invisible until and unless the user makes a choice.
+- The answer buttons still had hover effect even after making a choice. The solution was to activate the hover effect only when the buttons are enabled.
 
 #### Unfixed Bugs
 
@@ -98,13 +98,6 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+- The fonts used in the application was taken from [Google Fonts](https://fonts.google.com/).
+- The structure of my project was based on [YouTube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8).
+- The favicon used in the application was taken from [favicon io](https://favicon.io/).
