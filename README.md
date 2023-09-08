@@ -53,17 +53,17 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 ![lighthouse](assets/images/lighthouse_testing.png)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Bugs
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+#### Solved bugs
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- The user could move on to the next question without choosing an answer. This was solved by making the button invisible until and unless the user makes a choice
+- The answer buttons still have hover effect even after making a choice. The solution was to activate the hover effect only when the buttons are enabled.
 
-### bugs
-- dfgf
-- fgfgf
+#### Unfixed Bugs
+
+- No unfixed bugs
 
 ### Validator Testing
 
@@ -78,11 +78,6 @@ If this section grows too long, you may want to split it off into a separate fil
     - Function with the largest signature take 2 arguments, while the median is 0.
     - Largest function has 8 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 2 while the median is 1.5.
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-- next button is clickable without choosing an answer.
 
 ## Deployment
 
