@@ -122,7 +122,7 @@ function selectAnswer(a) {
 function againNextButton() {
     if (questionIndex < quizGame.length) {
 
-        if (++questionIndex < quizGame.length) {
+        if (questionIndex < quizGame.length) {
             showQuestion();
         }
         else {
@@ -137,7 +137,7 @@ function againNextButton() {
 //Here starts the program
 //When the user clicks the next button we check
 //if there are questions left
-nextButton.addEventListener("click", () => {
+nextButton.addEventListener("click",() => {
     againNextButton();
 });
 
