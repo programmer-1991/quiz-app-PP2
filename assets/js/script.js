@@ -122,7 +122,7 @@ function selectAnswer(a) {
 function againNextButton() {
     if (questionIndex < quizGame.length) {
 
-        if (questionIndex < quizGame.length) {
+        if (++questionIndex < quizGame.length) {
             showQuestion();
         }
         else {
