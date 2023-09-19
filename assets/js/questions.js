@@ -80,4 +80,52 @@ const questions = [
 
     },
 
+    {
+        question: "Which is the only body part that is fully grown from birth?",
+        answers: [
+
+            { text: "Heart", correct: false },
+            { text: "Ears", correct: false },
+            { text: "Eyes", correct: true },
+            { text: "Brain", correct: false },
+
+        ]
+    },
+
+    {
+        question: "What country has the most islands?",
+        answers: [
+
+            { text: "Sweden", correct: true },
+            { text: "Ireland", correct: false },
+            { text: "Danmark", correct: false },
+            { text: "Philippines", correct: false },
+
+        ]
+    },
+
+    {
+        question: "Where did sushi originate?",
+        answers: [
+
+            { text: "Japan", correct: false },
+            { text: "China", correct: true },
+            { text: "Taiwan", correct: false },
+            { text: "Mangolia", correct: false },
+
+        ]
+    },
+
+    {
+        question: "On what continent would you find the city of Baku?",
+        answers: [
+
+            { text: "America", correct: false },
+            { text: "Europe", correct: false },
+            { text: "Africa", correct: false },
+            { text: "Asia", correct: true },
+
+        ]
+    },
+    
 ]

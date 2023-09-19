@@ -40,6 +40,7 @@ a {
     border-radius: 1em;
     padding: 1em;
     min-width: min-content;
+    height: 28.5em;
 }
 
 #game h2 {
@@ -92,6 +93,9 @@ a {
 }
 
 /*footer*/
+#footer{
+    
+}
 
 #footer h4 {
     text-align: center;
