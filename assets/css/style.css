@@ -118,7 +118,6 @@ a {
 .rules#game button {
     border: 0.2em outset black;
     text-align: left;
-    font-family: sans-serif;
 }
 
 .rules#game h2 {
