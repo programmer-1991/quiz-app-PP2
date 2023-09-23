@@ -1,6 +1,7 @@
 /*import chosen fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=MuseoModerno&family=Raleway:wght@700&display=swap');
 
 /*applicable css style to all html elements*/
 * {
@@ -21,9 +22,10 @@ body {
     text-decoration: underline;
     font-style: normal;
     text-align: center;
-    margin: .8em auto;
-    text-shadow: 2px 2px 5px black;
-    font-family: Raleway;
+    margin: 0.1em auto 0.3em auto;
+    /*text-shadow: 2px 2px 5px black;*/
+    font-family: MuseoModerno;
+    font-size: 2.2em;
 }
 
 a {
@@ -114,7 +116,7 @@ a {
 /*rules styling*/
 
 .rules#game button {
-    border-bottom: 15px solid black;
+    border: 0.2em outset black;
     text-align: left;
     font-family: sans-serif;
 }
@@ -129,4 +131,13 @@ a {
 
 .center {
     text-align: center;
+}
+
+/*media queries*/
+@media (max-width: 420px) {
+    #footer {
+        position: absolute;
+        top: 65%;
+        left: 7%;
+    }
 }

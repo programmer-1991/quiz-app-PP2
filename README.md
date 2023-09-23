@@ -85,7 +85,8 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - Fork the repository from CI
   - Launch a new repository in github
-  - Open the workspace in codeanywhere
+  - Build my workspace in codeanywhere
+  - Put our basic file structure in place
   - Make the initial git add/commit/push back to github before deploying to github pages.
   - In the GitHub repository, navigate to the Settings tab
   -Check to the left "code and automation" and then click on Pages.
