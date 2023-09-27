@@ -1,8 +1,24 @@
 # Quiz To Learn
 
-Quiz-to-learn is a website that aims to show how pure JavaScript works in a real-world setting and creates an effective way to promote learning and educational content. The site targets people with different age groups who enjoy playing quiz games and eager to enhance their knowledge and retain information better. Quiz-to-learn offers to users a fun and effective way to learn, challenge themselves, and engage with others, making it a valuable tool for education, entertainment, and personal development.
+Quiz-to-learn is a website that aims to show how pure JavaScript works in a real-world setting and creates an effective way to promote learning and educational content. The site targets people of different age who enjoy playing quiz games and want to enhance their knowledge and retain information better. Quiz-to-learn offers to users a fun and effective way to learn, challenge themselves, and engage with others, making it a valuable tool for education, entertainment, and personal development.
 
+Quiz to learn is a quiz game.
+It's a 
 ![Responsice Mockup]()
+
+## Design
+- __Color choice__
+  - I used turqoise color in the background because i thought it gives the user a feeling of tranquility and stability
+  - I used black color with the header because it gives a good contrast ratio with the turquoise
+- __Typography__
+  - I used Raleway bold style font with the title, it's easier to read because the letters are bold with some space in between
+  - It is also used with answer buttons to make them pop up to the user as well as the footer
+  - I used Lato thin style for questions to make them visually different from answer buttons 
+  - It is also used with score as it is an informative text as well
+- __Layout__
+  - The header comes first always a the top and because it's only a headline so it's centered in the middle
+  - The main content of the quiz game is just right after the header and it's most suitable to keep the quiz game centered as well.
+  - The footer comes at last and it tells shortly the purpose of the quiz game. It should be at the same level of the header and main, centered as well.
 
 ## Features
 
@@ -86,7 +102,7 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
   - Create my github repository using the CI template
   - Build my workspace in codeanywhere
   - Put our basic file structure in place
-  - Create my initial git commit and push my project files to github before deploying to github pages.
+  - Create my initial git commit and push my project files to github.
   - In the GitHub repository, navigate to the Settings tab
   - Check to the left "code and automation" and then click on Pages.
   - From the source section drop-down menu, select "deploy from a branch".
