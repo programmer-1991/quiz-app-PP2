@@ -75,7 +75,7 @@ function showQuestion() {
     nextButton.style.visibility = 'hidden';
     questionPart.innerHTML = questionIndex + 1 + ". " + currentQuestion.question;
 
-    //Show your answers
+    //Show your answer alternatives
     currentQuestion.answers.forEach((answer, index) => {
         const btn = answerButtons.children[index];
         btn.innerHTML = answer.text;
@@ -98,7 +98,7 @@ function showScore() {
 function selectAnswer(a) {
     const selectedButton = a.target;
     const rightAnswer = selectedButton.dataset.correct === "true";
-    //we check if the answer is right
+    //checks if the answer is right and adds a point to the score 
     if (rightAnswer) {
         selectedButton.classList.add("correct");
         score++;
@@ -106,8 +106,7 @@ function selectAnswer(a) {
         selectedButton.classList.add("incorrect");
     }
 
-    //The computer finds the right answer and 
-    //disables the answer buttons
+    //The computer finds the right answer and disables the answer buttons
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
@@ -118,7 +117,8 @@ function selectAnswer(a) {
     nextButton.style.visibility = 'visible';
 }
 
-//When we click on the next button
+//againNextButton function: checks if there are any questions left
+//otherwise show the score and restart the game
 function againNextButton() {
     if (questionIndex < quizGame.length) {
 
@@ -134,11 +134,11 @@ function againNextButton() {
     }
 }
 
-//Here starts the program
-//When the user clicks the next button we check
-//if there are questions left
+
+//click event listener: what happens when the user clicks the next button
 nextButton.addEventListener("click",() => {
     againNextButton();
 });
 
+//Here starts the program
 startQuiz();
