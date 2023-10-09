@@ -38,6 +38,7 @@ function startQuiz() {
 
 //ShowRules function to show rules to the user
 function showRules() {
+    answerButtons.style.visibility = 'visible';
     gameArea.classList.add("rules");
     rules = {
         question: "Rules",
@@ -90,7 +91,7 @@ function showQuestion() {
 //showScore function
 function showScore() {
     questionPart.innerHTML = `You scored ${score} out of 5!`;
-    answerButtons.hidden = true;
+    answerButtons.style.visibility = 'hidden';
     nextButton.innerHTML = "Play Again";
 }
 
