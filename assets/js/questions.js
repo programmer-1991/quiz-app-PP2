@@ -127,5 +127,113 @@ const questions = [
 
         ]
     },
+
+    {
+        question: "Roughly how long does it take for the sun's light to reach Earth?",
+        answers: [
+
+            { text: "8 minutes", correct: true },
+            { text: "8 seconds", correct: false },
+            { text: "8 nanoseconds", correct: false },
+            { text: "8 hours", correct: false },
+
+        ]
+    },
     
+    {
+        question: "What metal is the best conductor of electricity?",
+        answers: [
+
+            { text: "Aluminium", correct: false },
+            { text: "Iron", correct: false },
+            { text: "Silver", correct: true },
+            { text: "Steel", correct: false },
+
+        ]
+    },
+
+    {
+        question: "What is the heaviest organ in the human body?",
+        answers: [
+
+            { text: "The liver", correct: true },
+            { text: "The brain", correct: false },
+            { text: "The stomach", correct: false },
+            { text: "The heart", correct: false },
+
+        ]
+    },
+
+    {
+        question: "What is the biggest animal in the world?",
+        answers: [
+
+            { text: "Polar Bear", correct: false },
+            { text: "Hippopotamus", correct: false },
+            { text: "Elephants", correct: false },
+            { text: "The Antarctic blue whale", correct: true },
+
+        ]
+    },
+    
+    {
+        question: "In which year did the Apollo 13 space mission take place?",
+        answers: [
+
+            { text: "1940", correct: false },
+            { text: "1970", correct: true },
+            { text: "1980", correct: false },
+            { text: "1960", correct: false },
+
+        ]
+    },
+
+    {
+        question: "Which is the main gas that makes up the Earth's atmosphere?",
+        answers: [
+
+            { text: "Oxygen", correct: false },
+            { text: "Carbon dioxide, ", correct: false },
+            { text: "Nitrogen", correct: true },
+            { text: "Neon", correct: false },
+
+        ]
+    },
+
+    {
+        question: "What is the biggest planet in our solar system?",
+        answers: [
+
+            { text: "Jupiter", correct: true },
+            { text: "Uranus", correct: false },
+            { text: "Venus", correct: false },
+            { text: "Neptune", correct: false },
+
+        ]
+    },
+
+    {
+        question: "How many teeth does an adult human have?",
+        answers: [
+
+            { text: "30", correct: false },
+            { text: "28", correct: false },
+            { text: "34", correct: false },
+            { text: "32", correct: true },
+
+        ]
+    },
+
+    {
+        question: "How many bones do sharks have?",
+        answers: [
+
+            { text: "0", correct: true },
+            { text: "5", correct: false },
+            { text: "3", correct: false },
+            { text: "7", correct: false},
+
+        ]
+    },
+
 ]

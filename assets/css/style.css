@@ -52,7 +52,18 @@ a {
     font-size: 1.25em;
     color: black;
     font-weight: 700;
-    text-align: center;
+}
+
+/*rules styling*/
+.rules#game button {
+    border: 0.2em outset black;
+    text-align: left;
+}
+
+.rules#game h2 {
+    margin-bottom: 0;
+    font-size: 2em;
+    margin-top: 0;
 }
 
 /*style the buttons and make it hover*/
@@ -66,7 +77,6 @@ a {
     min-width: 50%;
     padding: 10px;
     margin: 1em auto;
-    text-align: center;
     border-radius: 1em;
     display: block;
 }
@@ -94,15 +104,16 @@ a {
 
 }
 
-
+/*footer styling*/
 #footer {
-    text-align: center;
     margin-top: 2em;
 }
+
 #footer h4 {
     font-family: Raleway;
 }
 
+/*general classes to use*/
 .correct {
     background: green;
 }
@@ -111,21 +122,6 @@ a {
     background: red;
 }
 
-/*rules styling*/
-
-.rules#game button {
-    border: 0.2em outset black;
-    text-align: left;
-}
-
-.rules#game h2 {
-    margin-bottom: 0;
-    font-size: 2em;
-    margin-top: 0;
-}
-
-.rules #next-button {}
-
 .center {
     text-align: center;
 }
@@ -133,6 +129,6 @@ a {
 /*media queries*/
 @media (max-width: 420px) {
     #game {
-        min-height: 50vh;
+        min-height: 47vh;
     }
 }
