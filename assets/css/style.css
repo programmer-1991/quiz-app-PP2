@@ -109,9 +109,6 @@ a {
 }
 
 /*footer styling*/
-#footer {
-    margin-top: 2em;
-}
 
 #footer h4 {
     font-family: Raleway;
@@ -150,7 +147,7 @@ a {
         }
 
     #game{
-        min-height: 37vh;
+        min-height: 38vh;
     }
 
     
