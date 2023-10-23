@@ -11,6 +11,7 @@ const questions = [
 
         ]
     },
+
     {
         question: "Which planet has the most moons?",
         answers: [
@@ -178,8 +179,8 @@ const questions = [
     
     {
         question: "In which year did the Apollo 13 space mission take place?",
-        answers: [
-
+        answers: [            
+            
             { text: "1940", correct: false },
             { text: "1970", correct: true },
             { text: "1980", correct: false },

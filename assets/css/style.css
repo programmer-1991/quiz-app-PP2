@@ -14,7 +14,11 @@
 body {
     background: #33cdde;
 }
-
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .1em
+}
 /*Style the header logo*/
 .header {
     color: black;
@@ -42,7 +46,7 @@ a {
     border-radius: 1em;
     padding: 1em;
     min-width: min-content;
-    min-height: 75vh;
+    min-height: 73vh;
 }
 
 #game h2 {
@@ -127,8 +131,27 @@ a {
 }
 
 /*media queries*/
-@media (max-width: 420px) {
+@media (max-width: 480px) {
+   
     #game {
-        min-height: 47vh;
+        min-height: 52vh;
     }
+
+    .container {
+        gap: 2em;
+    }
+}
+
+@media (min-width: 481px) {
+
+    .container {
+            display: flex;
+            gap: 3em;
+        }
+
+    #game{
+        min-height: 37vh;
+    }
+
+    
 }
