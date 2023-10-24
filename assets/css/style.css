@@ -14,11 +14,13 @@
 body {
     background: #33cdde;
 }
+
 .container {
     display: flex;
     flex-direction: column;
     gap: .1em
 }
+
 /*Style the header logo*/
 .header {
     color: black;
@@ -110,6 +112,7 @@ a {
 
 /*footer styling*/
 
+
 #footer h4 {
     font-family: Raleway;
 }
@@ -129,9 +132,9 @@ a {
 
 /*media queries*/
 @media (max-width: 480px) {
-   
+
     #game {
-        min-height: 52vh;
+        min-height: 53vh;
     }
 
     .container {
@@ -139,16 +142,13 @@ a {
     }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
     .container {
-            display: flex;
-            gap: 3em;
-        }
-
-    #game{
-        min-height: 38vh;
+        gap: 5em;
     }
 
-    
+    #game {
+        min-height: 44vh;
+    }
 }
