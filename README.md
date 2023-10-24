@@ -32,11 +32,15 @@ Quiz to learn is a quiz game.
   - It clearly tells the user what game they are playing.
   - It is clickable in case the user wants to restart the game.
 
-![Logo](assets/images/)
+![Logo](assets/images/header.png)
 
 - __The Rules section__
   
-  - This will tell the user the game rules before starting the game.
+  - This will tell the user the game 
+  rules before starting the game.
+
+
+![Game rules](assets/images/rules.png)
 
 - __The quiz section__
 
@@ -45,15 +49,19 @@ Quiz to learn is a quiz game.
   - After choosing an answer, if the button turns green then that makes it known that the answer is correct, otherwise the button will turn red to make it clear that the answer is wrong and the right answer will be highlighted with green.
   - After answering the question the next button will be shown and the user can click on it to view the next question.
   
+  ![quiz game](assets/images/quiz_game.png)
+
 - __The score section__ 
  
   - This section will allow the user to see exactly how many correct answers they have provided.
   - The user have the opportunity to play again by clicking "Play again" button.
 
-![score]()
+![score](assets/images/score.png)
 
 - __The footer__
   - The footer tells the user the purpose of this website.
+
+![footer](assets/images/footer.png)
 
 ### Additional Features to Implement
 
