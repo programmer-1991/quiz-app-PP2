@@ -1,6 +1,6 @@
 # Quiz To Learn
 
-Quiz-to-learn is a website that aims to show how pure JavaScript works in a real-world setting and creates an effective way to promote learning and educational content. The site targets adults of various ages who enjoy playing quizzes and want to enhance their general knowledge and consolidate information better. Quiz-to-learn offers users a fun and effective way to learn, challenge themselves, and engage with others, making it a valuable tool for education, entertainment, and personal development.
+Quiz-to-learn is a website that aims to show how pure JavaScript works in a real-world setting and creates an effective way to promote learning and educational content. The site targets adults of various ages who enjoy playing quizzes and want to enhance their general knowledge and retain information better. Quiz-to-learn offers users a fun and effective way to learn, challenge themselves, and engage and compete with others, making it a valuable tool for education, entertainment, and personal development.
 
 ![Responsice Mockup]()
 
