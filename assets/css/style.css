@@ -134,9 +134,7 @@ a {
     #game {
         min-height: 53vh;
     }
-    .header {
-        margin-bottom: 0;
-    }
+
     .container {
         gap: 2.5em;
     }
@@ -147,9 +145,7 @@ a {
     .container {
         gap: 8em;
     }
-    .header {
-        margin-bottom: 0;
-    }
+
     #game {
         min-height: 44vh;
     }
