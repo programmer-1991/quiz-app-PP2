@@ -124,6 +124,6 @@ The live link can be found here - <https://programmer-1991.github.io/quiz-app-PP
 - The fonts used in the application was taken from [Google Fonts](https://fonts.google.com/).
 - The structure of my project was based on [YouTube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8).
    - I used in my project the same basic structure used in this toturial.
-   - I copied selectAnswer, showQuestion, showScore and handleNextButton functions with some modifications.
-   - I modified startQuiz function and added a for loop that picks five different questions eachtime the user plays.
+   - I copied selectAnswer, showQuestion, showScore and handleNextButton functions with major modifications.
+   - I modified startQuiz function and added a for loop that picks randomly five different questions eachtime the user plays.
 - The favicon used in the application was taken from [favicon io](https://favicon.io/).

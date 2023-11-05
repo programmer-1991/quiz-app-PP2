@@ -129,7 +129,7 @@ a {
 }
 
 /*media queries*/
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     #game {
         min-height: 53vh;
