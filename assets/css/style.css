@@ -19,7 +19,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: .1em
+    gap: 1em
 }
 
 /*Style the header logo*/
