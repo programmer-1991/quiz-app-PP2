@@ -15,6 +15,7 @@ body {
     background: #33cdde;
 }
 
+/*Add flexbox to the body element*/
 .container {
     display: flex;
     flex-direction: column;
@@ -31,7 +32,6 @@ body {
     text-shadow: 2px 2px 5px black;
     font-family: Raleway;
     font-size: 2.2em;
-    margin-bottom: .8em;
 }
 
 a {
