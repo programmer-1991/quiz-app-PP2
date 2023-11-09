@@ -20,6 +20,8 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
   - The header comes first always a the top and because it's only a headline it's centered in the middle
   - The main content of the quiz game is just right after the header and it's most suitable to keep the quiz game centered as well.
   - The footer comes at last and it tells shortly the purpose of the quiz game. It should be at the same level as the header and main, centered as well.
+  
+![Wireframe](assets/images/wireframe.jpg)
 
 ## Features
 
