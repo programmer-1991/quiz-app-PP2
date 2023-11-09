@@ -134,7 +134,7 @@ a {
     #game {
         min-height: 53vh;
     }
-    
+
     .container {
         gap: 2.5em;
     }
@@ -149,6 +149,7 @@ a {
     #game {
         min-height: 44vh;
     }
+}
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
@@ -157,16 +158,17 @@ a {
     }
 
     #game {
-        min-height: 44vh;
+        min-height: 33vh;
     }
+}
 
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1025px) {
 
     .container {
         gap: 8em;
     }
 
     #game {
-        min-height: 44vh;
+        min-height: 56vh;
     }
-}
+}               
