@@ -162,7 +162,7 @@ a {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
 
     .container {
         gap: 8em;
