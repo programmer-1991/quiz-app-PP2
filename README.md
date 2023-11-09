@@ -1,6 +1,6 @@
 # Quiz To Learn
 
-Quiz-to-learn is a website that aims to show how pure JavaScript works in a real-world setting and to create an effective way to promote learning and educational content. The site targets adults of various ages who enjoy playing quizzes and want to enhance their general knowledge and retain information better. Quiz-to-learn offers users a fun and effective way to learn, challenge themselves, and engage and compete with others, making it a valuable tool for education, entertainment, and personal development. Quiz-to-learn is uppdated with new questions from time to time to make users curious about what new to learn and come back to the site.
+Quiz-to-learn is a website that aims to show how pure JavaScript works in a real-world setting and to create an effective way to promote learning and educational content. The site targets adults of various ages who enjoy playing quizzes and want to enhance their general knowledge and retain information better. Quiz-to-learn offers users a fun and effective way to learn, challenge themselves, and engage and compete with others, making it a valuable tool for education, entertainment, and personal development. Quiz-to-learn is updated with new questions every now and then to keep users curious about what new to learn and come back to the site.
 
 ![Responsice Mockup]()
 
@@ -123,7 +123,7 @@ The live link can be found here - <https://programmer-1991.github.io/quiz-app-PP
 
 - The fonts used in the application was taken from [Google Fonts](https://fonts.google.com/).
 - The structure of my project was based on [YouTube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8).
-   - I used in my project the same basic structure used in this toturial.
-   - I copied selectAnswer, showQuestion, showScore and handleNextButton functions with major modifications.
-   - I modified startQuiz function and added a for loop that picks randomly five different questions eachtime the user plays.
+    - I used in my project the same basic structure used in this toturial.
+    - I copied selectAnswer, showQuestion, showScore and handleNextButton functions with major modifications.
+    - I modified startQuiz function and added a for loop that picks randomly five different questions eachtime the user plays.
 - The favicon used in the application was taken from [favicon io](https://favicon.io/).

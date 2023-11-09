@@ -1,18 +1,16 @@
-//jshint esversion: 6
-//import {questions} from "./js/questions"
-
-/*add variables for id "question" "answer-buttons" "next-button" "game"*/
+//add variables for id "question" "answers" "next-button" and "game"
 const questionPart = document.getElementById("question");
 const answerButtons = document.getElementById("answers");
 const nextButton = document.getElementById("next-button");
 const gameArea = document.getElementById("game");
 
-/*create variables questionIndex, quizIndex, score and quizGame array*/
+//create variables questionIndex, quizIndex, score and quizGame array
 let questionIndex;
 let quizIndex;
 let score;
 let quizGame = [];
 
+//getRandomInt function returns a random value bettween 0 and max
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
