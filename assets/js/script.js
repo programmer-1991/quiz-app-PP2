@@ -34,7 +34,7 @@ function startQuiz() {
     gameArea.hidden = false;
 }
 
-//ShowRules function to show rules to the user
+//ShowRules function to show the rules to the user
 function showRules() {
     answerButtons.style.visibility = 'visible';
     gameArea.classList.add("rules");
