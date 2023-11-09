@@ -100,12 +100,11 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprogrammer-1991.github.io%2Fquiz-app-PP2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 - JavaScript
-  - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-    - The following metrics were returned:
-    - There are 8 functions in this file.
+  - No errors were found when passing through the official [Jshint validator](https://jshint.com/). The following metrics were returned:
+    - There are 11 functions in this file.
     - Function with the largest signature take 2 arguments, while the median is 0.
-    - Largest function has 8 statements in it, while the median is 4.
-    - The most complex function has a cyclomatic complexity value of 2 while the median is 1.5.
+    - Largest function has 13 statements in it, while the median is 5.
+    - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
 
 ## Deployment
 

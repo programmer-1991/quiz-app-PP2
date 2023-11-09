@@ -3,7 +3,7 @@ const questionPart = document.getElementById("question");
 const answerButtons = document.getElementById("answers");
 const nextButton = document.getElementById("next-button");
 const gameArea = document.getElementById("game");
-
+const questions = window.questions;
 //create variables questionIndex, quizIndex, score and quizGame array
 let questionIndex;
 let quizIndex;
@@ -23,9 +23,9 @@ function startQuiz() {
     quizGame = [];
     let currentQuestions = questions.slice();
 
-    for (i = 0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
         quizIndex = getRandomInt(currentQuestions.length);
-        quizQuestion = currentQuestions[quizIndex];
+        const quizQuestion = currentQuestions[quizIndex];
         currentQuestions.splice(quizIndex, 1);
         quizGame.push(quizQuestion);
     }
@@ -38,7 +38,7 @@ function startQuiz() {
 function showRules() {
     answerButtons.style.visibility = 'visible';
     gameArea.classList.add("rules");
-    rules = {
+    const rules = {
         question: "Rules",
         answers: [{
             text: "1- You have to choose an option to move on to the next question."
