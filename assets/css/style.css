@@ -51,7 +51,7 @@ a {
     border-radius: 1em;
     padding: 1em;
     min-width: min-content;
-    min-height: 74vh;
+    min-height: 76vh;
 }
 
 #game h2 {
@@ -159,18 +159,10 @@ a {
 
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
 
     #game {
         min-height: 56vh;
-    }
-
-}
-
-@media (min-width: 1281px) {
-
-    #game {
-        min-height: 45vh;
     }
 
 }
