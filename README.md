@@ -8,18 +8,18 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 
 - __Color choice__
   - I used turquoise color in the background because I thought it would give the user a feeling of tranquility and stability
-  - I used black color with the header because it gives a good contrast ratio with the turquoise
+  - I used black with the header because it gives a good contrast ratio with the turquoise
 
 - __Typography__
-  - I used Raleway bold style font with the title, it's easier to read because the letters are bold with some space in between
+  - I used Raleway bold style font with the title; it's easier to read because the letters are bold with some space in between
   - It is also used with answer buttons to make them pop up to the user as well as the footer
   - I used Lato thin style for questions to make them visually different from answer buttons
   - It is also used with score as it is an informative text as well
 
 - __Layout__
-  - The header comes first always a the top and because it's only a headline it's centered in the middle
-  - The main content of the quiz game is just right after the header and it's most suitable to keep the quiz game centered as well.
-  - The footer comes at last and it tells shortly the purpose of the quiz game. It should be at the same level as the header and main, centered as well.
+  - The header comes first, always at the top and because it's only a headline, it's centered in the middle
+  - The main content of the quiz game is just right after the header, and it's most suitable to keep the quiz game centered as well.
+  - The footer comes at last, and it briefly explains the purpose of the quiz game. It should be at the same level as the header and main, centered as well.
   
 ![Wireframe](assets/images/wireframe.jpg)
 
@@ -67,7 +67,7 @@ Quiz-to-learn is a website that aims to show how pure JavaScript works in a real
 ### Additional Features to Implement
 
 - add a timer for questions.
-- add more questions with different categories or make them random.
+- add more questions with different categories to choose between.
 
 
 ## Testing
