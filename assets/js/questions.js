@@ -1,4 +1,4 @@
-/*create a constant "questions" to add our questions and the options for the answers.*/
+/*Create a list of questions and store it in window object.*/
 window.questions = [
     {
         question: "What city is known as The Eternal City? ",

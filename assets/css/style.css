@@ -145,14 +145,14 @@ a {
 
 @media (min-width: 481px) and (max-width: 768px) {
 
-    
+
     #game {
         min-height: 44vh;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    
+
     #game {
         min-height: 33vh;
     }
@@ -165,9 +165,9 @@ a {
         min-height: 56vh;
     }
 
-}       
+}
 
-@media (min-width: 1281px){
+@media (min-width: 1281px) {
 
     #game {
         min-height: 45vh;

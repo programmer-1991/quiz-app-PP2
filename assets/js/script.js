@@ -1,9 +1,10 @@
-//add variables for id "question" "answers" "next-button" and "game"
+//add constants for elements with ids: question, answers, next-button and game
 const questionPart = document.getElementById("question");
 const answerButtons = document.getElementById("answers");
 const nextButton = document.getElementById("next-button");
 const gameArea = document.getElementById("game");
 const questions = window.questions;
+
 //create variables questionIndex, quizIndex, score and quizGame array
 let questionIndex;
 let quizIndex;
@@ -65,35 +66,34 @@ function showRules() {
     nextButton.innerHTML = "Play";
 }
 
-//showQuestion function
+//Show current question and answer alternatives
 function showQuestion() {
-    //Show your question
+    //retrieve the question and show its number
     let currentQuestion = quizGame[questionIndex];
     gameArea.classList.remove("rules");
     answerButtons.hidden = false;
     nextButton.style.visibility = 'hidden';
     questionPart.innerHTML = questionIndex + 1 + ". " + currentQuestion.question;
 
-    //Show your answer alternatives
+    //Show answer alternatives
     currentQuestion.answers.forEach((answer, index) => {
         const btn = answerButtons.children[index];
         btn.innerHTML = answer.text;
         btn.dataset.correct = answer.correct;
         btn.classList.remove("correct", "incorrect");
         btn.disabled = false;
-        //The user chooses an answer
         btn.addEventListener("click", selectAnswer);
     });
 }
 
-//showScore function
+//shows the final score to the user
 function showScore() {
     questionPart.innerHTML = `You scored ${score} out of 5!`;
     answerButtons.style.visibility = 'hidden';
     nextButton.innerHTML = "Play Again";
 }
 
-//selectAnswer function
+//The user selects an answer
 function selectAnswer(a) {
     const selectedButton = a.target;
     const rightAnswer = selectedButton.dataset.correct === "true";
@@ -116,8 +116,8 @@ function selectAnswer(a) {
     nextButton.style.visibility = 'visible';
 }
 
-//againNextButton function: checks if there are any questions left
-//otherwise show the score and restart the game
+/*goes through the questions list and show them to the user
+before showing score and restart*/
 function againNextButton() {
     if (questionIndex < quizGame.length) {
 
@@ -134,7 +134,7 @@ function againNextButton() {
 }
 
 
-//click event listener: what happens when the user clicks the next button
+//The user interacts with the button to proceed.
 nextButton.addEventListener("click",() => {
     againNextButton();
 });
