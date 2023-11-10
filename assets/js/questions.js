@@ -1,5 +1,5 @@
 /*create a constant "questions" to add our questions and the options for the answers.*/
-const questions = [
+window.questions = [
     {
         question: "What city is known as The Eternal City? ",
         answers: [
